@@ -3,7 +3,21 @@ ul,p{
   margin: 0;
   padding: 0;
 }
-.button{}
+.button{
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-size: 15px;
+  color: #00020E;
+  width: 300px;
+  height: 78px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(308.43deg, #56B7FD 0%, #90E1FA 41.36%, #56B7FD 100%);
+  box-shadow: 0px 4px 0px #5CAFEB,
+  inset -4px -4px 8px rgba(255, 255, 255, 0.08),
+  inset 3px 3px 8px rgba(255, 255, 255, 0.12);
+}
 .page__body{
   width: 1160px;
   margin: 0 auto;
@@ -13,12 +27,72 @@ ul,p{
 ul{
   list-style: none;
 }
-p{
+p, a{
   font-family: "TT Norms";
   font-weight: normal;
 }
 /*Header*/
 .header__wrapper{
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
+}
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.header__nav li{
+  font-size: 18px;
+}
+.header__contacts p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.header__contacts a{
+  font-size: 16px;
+  border-bottom: 1px dashed #F9F9F9;
+  margin-left: 47px;
+}
+.header__contacts a::before{
+  content: "";
+  position: absolute;
+  background-image: url('../img/phone.svg');
+  top: 5px;
+  left: -25px;
+  width: 12px;
+  height: 12px;
+}
+/*main-section*/
+.main__section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+.title{
+  font-size: 48px;
+}
+.title span{
+  font-weight: 500;
+}
+.title__text{
+  font-size: 22px;
+  line-height: 150%;
+  width: 512px;
+}
+.pluses{
+  display: flex;
+  gap: 50px;
+}
+.pluses__elm{
+  display: flex;
+}
+.pluses__text{
+  margin-left: 10px;
+  letter-spacing: 0.13em;
+  line-height: 21px;
+}
+.pluses__text span{
+  font-weight: 500;
 }
