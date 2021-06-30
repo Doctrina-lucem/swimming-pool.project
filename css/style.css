@@ -3,6 +3,7 @@ ul,p{
   margin: 0;
   padding: 0;
 }
+img{}
 .button{
   font-weight: bold;
   text-transform: uppercase;
@@ -30,6 +31,7 @@ ul{
 p, a, span{
   font-family: "TT Norms";
   font-weight: normal;
+  text-decoration: none;
 }
 .cursive{
   font-weight: 500;
@@ -195,7 +197,7 @@ p, a, span{
   flex-wrap: wrap;
   gap: 60px;
   row-gap: 40px;
-
+  margin-bottom: 50px;
 }
 .pools-series__elm{
   font-size: 12px;
@@ -211,11 +213,18 @@ p, a, span{
   height: 44px;
 }
 .series-description{
+  box-sizing: border-box;
+  margin: 0 auto;
   width: 960px;
+  height: 540px;
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-bottom: 40px;
   background-color: #F9F9F9;
   border-radius: 5px;
   color: #00020E;
   display: grid;
+  box-shadow: 0px 5px 28px 0px #22242B40;
   grid-template-columns: 374px 526px;
   grid-template-areas: "title feature"
                        "img feature"
@@ -224,11 +233,20 @@ p, a, span{
 .series-description__title-wrapper{
   grid-area: title;
 }
+.series-description__title{
+  font-size: 24px;
+  font-weight: 500;
+}
+.series-description__title-text{
+  font-size: 18px;
+}
 .series-description__main-img{
   grid-area: img;
 }
 .series-description__button{
   grid-area: btn;
+  width: 337px;
+  height: 68px;
 }
 .series-feature{
   grid-area: feature;
@@ -240,9 +258,191 @@ p, a, span{
   font-size: 10px;
   row-gap: 30px;
 }
+.series-feature__img{
+  display: block;
+  margin: 0 auto;
+}
+.series-feature__name{
+  text-align: center;
+}
+.control-elm{
+
+}
 .series-feature__elm{
   max-width: 58px;
 }
+.series-feature__title,
+.series-size__title{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.border-list{
+  margin-top: 15px;
+}
+.series-size__description{
+  font-weight: 300;
+}
+
 .series-size{
   grid-area: size;
+}
+.series-size{
+  margin-top: -50px;
+}
+.series-size__wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.series-size__elm{
+  width: 247px;
+  display: flex;
+}
+.series-size__img{
+  margin-right: 20px;
+}
+/*pools-slider*/
+.pools-slider__title{
+  font-size: 48px;
+  text-align: center;
+}
+.pool-slider{
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  align-items: center;
+}
+
+.pools-slider__img{
+  width: 100%;
+}
+.pools-slider__arrow-left, .pools-slider__arrow-right{
+  width: 60px;
+  height: 60px;
+}
+/*dealers-map*/
+.dealers-map__first-title{
+
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+.dealers-map__first-title span{
+  font-size: 36px
+}
+.dealers-map__map{
+  margin: 0 auto;
+  display: block;
+}
+/*company-info*/
+.company-info{
+  display: flex;
+  column-gap: 97px;
+  margin-bottom: 50px;
+}
+.phone-number__title{
+  font-size: 48px;
+  font-weight: 500;
+}
+.pnone-number__text{
+  font-size: 36px;
+  width: 565px;
+}
+.pnone-number__form{
+  width: 654px;
+  height: 133px;
+  background-color: #FCFCFC;
+  padding-top: 33px;
+  box-sizing: border-box;
+}
+.pnone-number__input{
+  width: 263px;
+  height: 53px;
+  border: 1.5px solid #00020E;
+  text-align: center;
+  font-size: 18px;
+  font-family: "TT Norms";
+  margin-right: 40px;
+  margin-left: 30px;
+}
+.pnone-number__button{
+  width: 250px;
+  height: 69px;
+}
+.phone-number__description{
+  font-size: 14px;
+}
+.call-us{
+  width: 400px;
+  height: 146px;
+  border: 5px solid;
+  border-image-source: linear-gradient(93.85deg, #6AC1FE 0%, #8CDEFB 44.78%, #6AC1FE 99.97%);
+  border-image-slice: 1;
+  margin-top: 190px;
+  text-align: center;
+  line-height: 50px;
+}
+.call-us__title{
+  font-size: 18px;
+
+}
+.call-us__tel{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration: none;
+  color: #F9F9F9;
+}
+.call-us__description{
+  font-size: 14px;
+  line-height: 150%;
+}
+/*footer*/
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.footer__company-info{
+  display: flex;
+  flex-direction: column;
+  row-gap: 140px;
+}
+.company-info__privacy{
+  font-size: 14px;
+}
+.footer__contacts{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.company-info__title{
+  font-weight: 500;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.company-info__text{
+  line-height: 150%;
+  font-weight: 500;
+  font-size: 20px;
+}
+.email-link{
+  width: 102px;
+  height: 41px;
+  border: 1px solid #FEA670;
+  display: flex;
+  justify-content: space-around;
+}
+.email-link__img{
+  display: block;
+  margin: auto 0;
+  width: 20px;
+  height: 14px;
+}
+.email-link__text{
+  text-decoration: none;
+  color: #FEA670;
+  font-size: 18px;
+  line-height: 230%;
 }
