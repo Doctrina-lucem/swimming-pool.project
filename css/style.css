@@ -37,6 +37,12 @@ p, a, span{
   font-weight: 500;
 }
 /*Header*/
+.header__burger{
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/Group 1266.svg");
+  display: none;
+}
 .header__wrapper{
   margin-top: 70px;
   display: flex;
@@ -92,11 +98,13 @@ p, a, span{
 }
 .pluses__elm{
   display: flex;
+  flex-wrap: wrap;
 }
 .pluses__text{
   margin-left: 10px;
   letter-spacing: 0.13em;
   line-height: 21px;
+  width: 188px;
 }
 .pluses__text span{
   font-weight: 500;
@@ -144,7 +152,7 @@ p, a, span{
   width: 735px;
   margin-bottom: 90px;
 }
-.pool-pluses__title span{
+.child-title-1, .child-title-2{
   font-weight: 500;
 }
 .child-title{
