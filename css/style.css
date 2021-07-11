@@ -50,11 +50,14 @@ p, a, span{
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 90px;
 }
 .header__nav{
   display: flex;
   justify-content: space-between;
   width: 250px;
+  line-height: 50px;
+  padding-left: 27px;
 }
 .header__nav li{
   font-size: 18px;
@@ -83,25 +86,33 @@ p, a, span{
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
+  margin-bottom: 150px;
 }
 .title{
   font-size: 48px;
+  margin-bottom: 15px;
 }
 .title span{
   font-weight: 500;
 }
 .title__text{
+  margin-left: 32px;
   font-size: 22px;
   line-height: 150%;
   width: 512px;
+  margin-bottom: 60px;
+}
+.main__video{
+  margin-top: -20px;
 }
 .pluses{
   display: flex;
   gap: 50px;
+  margin-top: -2px;
+  margin-right: -200px;
 }
 .pluses__elm{
   display: flex;
-  flex-wrap: wrap;
 }
 .pluses__text{
   margin-left: 10px;
@@ -113,12 +124,15 @@ p, a, span{
   font-weight: 500;
 }
 /*about-company*/
+.about-company{
+  margin-bottom: 150px;
+}
 .about-company__title{
   margin: 0 auto;
   font-size: 48px;
-  font-weight: 500;
   width: 426px;
   text-align: center;
+  margin-bottom: 25px;
 }
 .about-company__title span{
   font-weight: normal;
@@ -152,12 +166,15 @@ p, a, span{
 .pool-pluses__title{
   margin: 0 auto;
   font-size: 48px;
-  width: 735px;
+  width: 740px;
   margin-bottom: 90px;
+  line-height: 40px;
+  text-align: center;
 }
-.child-title-1, .child-title-2{
+.child-title-1{
   font-weight: 500;
 }
+
 .child-title{
   font-size: 36px;
 }

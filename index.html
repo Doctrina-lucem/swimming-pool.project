@@ -25,7 +25,6 @@
          <a>Заказать звонок</a>
        </div>
        <a class="header__burger">
-
        </a>
      </div>
    </header>
@@ -87,8 +86,8 @@
     </section>
      <section class="pool-pluses">
        <p class="pool-pluses__title">
-         Мы заботимя о <span class="child-title-1">Ваше здоровье</span>
-         <span class="child-title-2">создавая бассены с лучшими техногогиями</span>
+         Мы заботимся о <span class="child-title-1">Вашем здоровье</span>
+         <span class="child-title">создавая бассены с лучшими технологиями</span>
        </p>
        <ul class="pool-pluses-list">
          <li class="pool-pluses-elm">
@@ -153,7 +152,9 @@
          <span class="cursive">Большой</span> ассортимент моделей<br>
          <span class="child-title">поможет вам подобрать именно то, что <span class="cursive">Вам</span> нужно</span>
        </p>
-       <ul class="pools-series__wrapper">
+       <div>
+         <input type="range" class="pools-series__control" min="0" max="10" step="1" value="3"/>
+         <ul class="pools-series__wrapper">
          <li class="pools-series__elm">
            <a class="pools-series__text">Серия Rio</a>
          </li>
@@ -163,28 +164,29 @@
          <li class="pools-series__elm">
            <a class="pools-series__text">Серия Marathon</a>
          </li>
-         <li class="pools-series__elm">
+         <li class="pools-series__elm hide">
            <a class="pools-series__text">Серия Minpool</a>
          </li>
-         <li class="pools-series__elm">
+         <li class="pools-series__elm hide">
            <a class="pools-series__text">Серия Ipool</a>
          </li>
-         <li class="pools-series__elm">
+         <li class="pools-series__elm hide">
            <a class="pools-series__text">Серия Quick</a>
          </li>
-         <li class="pools-series__elm">
+         <li class="pools-series__elm hide">
            <a class="pools-series__text">Серия Classic</a>
          </li>
-         <li class="pools-series__elm">
+         <li class="pools-series__elm hide">
            <a class="pools-series__text">Серия SPA</a>
          </li>
-         <li class="pools-series__elm">
+         <li class="pools-series__elm hide">
            <a class="pools-series__text">Серия Splash</a>
          </li>
-         <li class="pools-series__elm">
+         <li class="pools-series__elm hide">
            <a class="pools-series__text">Серия Supermini</a>
          </li>
        </ul>
+       </div>
        <div class="series-description">
          <div class="series-description__title-wrapper">
            <p class="series-description__title">Серия Rio</p>
@@ -382,4 +384,5 @@
    </footer>
  </body>
   <script src="js/mainsSlider.js"></script>
+  <script src="js/pools-series__control.js"></script>
 </html>
