@@ -6,6 +6,7 @@
    <link href="css/stylesheet.css" rel="stylesheet">
    <link href="css/style.css" rel="stylesheet">
    <link href="css/tablet.css" rel="stylesheet">
+   <link href="css/mobile.css" rel="stylesheet">
  </head>
  <body class="page__body">
    <header>
@@ -195,7 +196,7 @@
          <button class="series-description__button button" type="submit" >Рассчиать стоимость</button>
          <div class="series-feature">
            <p class="series-feature__title">Выберите цвет</p>
-           <ul class="series-feature__list">
+           <ul class="series-feature__list color__list">
              <li class="series-feature__elm">
                <img class="series-feature__img" src="img/old-img/color-1.png">
                <p class="series-feature__name">
@@ -265,7 +266,7 @@
            </ul>
            <div class="border-list">
             <p class="series-feature__title">Выберите бордюр</p>
-            <ul class="series-feature__list ">
+            <ul class="series-feature__list border__list">
              <li class="series-feature__elm">
                <img class="series-feature__img" src="img/old-img/border-1.png">
              </li>
@@ -342,9 +343,10 @@
          <p class="pnone-number__text">Оставьте заявку и мы перезвоним вам в течение 30 минут</p>
          <form class="pnone-number__form" method="post" >
            <input class="pnone-number__input" placeholder="Ваш телефон" type="tel">
+           <p class="phone-number__description display--hide">Оставляя заявку, Вы соглашаетесь с политикой конфиденциальности</p>
            <button class="pnone-number__button button" type="submit">Оставить заявку</button>
          </form>
-         <p class="phone-number__description">Оставляя заявку, Вы соглашаетесь с политикой конфиденциальности</p>
+         <p class="phone-number__description display--hide2">Оставляя заявку, Вы соглашаетесь с политикой конфиденциальности</p>
        </div>
        <div class="call-us">
          <p class="call-us__title">Либо позвоните напрямую:</p>

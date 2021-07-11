@@ -1,7 +1,8 @@
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   /*Global*/
   .page__body{
-    width: 620px;
+    width: auto;
+    max-width: 620px
   }
 
   /*Header*/
@@ -63,7 +64,7 @@
   /*pools-series*/
   .pools-series__title{
     font-size: 42px;
-    width: 628px;
+    width: 620px;
   }
   .child-title{
     font-size: 35px;
@@ -72,9 +73,82 @@
     width: 620px;
     height: 634px;
     padding-left: 15px;
+    grid-template-columns: 320px 262px;
     grid-template-areas: "title img"
                          "feature size"
-                         "feature btn";
+                         "feature size"
+                         "btn btn";
+  }
+  .series-description__title-wrapper{
+    width: 320px;
+  }
+  .series-feature{
+    margin-top: -90px;
+  }
+  .series-description__main-img{
+    width: 263px;
+  }
+  .series-size{
+    margin-top: 10px;
+  }
+  .series-size__wrapper{
+    flex-direction: column;
+  }
+  /*pools-slider*/
+  .pools-slider__title{
+    font-size: 43px;
+  }
+  /*dealers-map*/
+  .dealers-map__map{
+    width: 620px;
+  }
+  /*company-info*/
+  .company-info{
+    flex-direction: column;
+  }
+  .phone-number__title{
+    text-align: center;
+    font-size: 43px;
+  }
+  .pnone-number__text{
+    text-align: center;
+    font-size: 36px;
+  }
+  .pnone-number__form{
+    margin: 0 auto;
+    height: 286px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+  }
+  .display--hide{
+    display: block;
+    color: #00020E;
+  }
+  .phone-number__description{
+    text-align: center;
+    width: 240px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .display--hide2{
+    display: none;
+  }
+  .pnone-number__button{
+    margin: 0 auto;
+  }
+  .call-us{
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  /*footer*/
+  .footer{
+    position: relative;
+  }
+  .email-link{
+    position: absolute;
+    left: 0px;
+    top: 90px;
   }
 }
-

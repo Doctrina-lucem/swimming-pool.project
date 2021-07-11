@@ -36,6 +36,9 @@ p, a, span{
 .cursive{
   font-weight: 500;
 }
+.display--hide{
+  display: none;
+}
 /*Header*/
 .header__burger{
   width: 40px;
