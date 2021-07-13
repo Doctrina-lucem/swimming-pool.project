@@ -1,7 +1,8 @@
-@media (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 619px) {
   /*Global*/
   .page__body{
-    width: 320px;
+    width: auto;
+    max-width: 320px;
   }
   /*Header*/
   /*main__section*/

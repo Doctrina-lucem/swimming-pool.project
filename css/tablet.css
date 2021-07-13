@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media screen and (max-width: 900px) {
   /*Global*/
   .page__body{
     width: auto;
