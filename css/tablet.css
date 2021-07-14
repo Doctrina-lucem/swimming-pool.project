@@ -81,6 +81,7 @@
     overflow: hidden;
     -webkit-appearance: none;
     background-color: #142F4E;
+    display: block;
   }
   .pools-series__control::-webkit-slider-runnable-track {
     -webkit-appearance: none;

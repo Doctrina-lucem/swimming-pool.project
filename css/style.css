@@ -43,7 +43,6 @@ p, a, span{
 .header__burger{
   width: 40px;
   height: 40px;
-  background-image: url("../img/Group 1266.svg");
   display: none;
 }
 .header__wrapper{
@@ -162,6 +161,7 @@ p, a, span{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 230px;
 }
 .pool-pluses__title{
   margin: 0 auto;
@@ -217,7 +217,9 @@ p, a, span{
   font-size: 48px;
   width: 895px;
 }
-
+.pools-series__control{
+  display: none;
+}
 .pools-series__title span {
   font-weight: 500;
 }
@@ -227,6 +229,7 @@ p, a, span{
   gap: 60px;
   row-gap: 40px;
   margin-bottom: 50px;
+  justify-content: space-between;
 }
 .pools-series__elm{
   font-size: 12px;
