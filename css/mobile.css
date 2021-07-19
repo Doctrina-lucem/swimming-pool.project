@@ -14,7 +14,7 @@
 
   }
   .header__wrapper{
-    margin-bottom: 30px;
+    margin-bottom: 14px;
   }
 
   /*main__section*/
@@ -46,8 +46,12 @@
   }
   .main__video{
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 55px;
     margin-bottom: 40px;
+  }
+  .video{
+    width: 229px;
+    height: 188px;
   }
   .pluses{
     margin-right: 0px;
@@ -69,6 +73,9 @@
     margin: 0;
   }
   /*about-company*/
+  .about-company{
+
+  }
   .about-company__title{
     width: 266px;
     font-size: 30px;
@@ -87,6 +94,9 @@
     font-size: 18px;
   }
   /*pool-pluses*/
+  .pool-pluses{
+    margin-bottom: 100px;
+  }
   .pool-pluses__title{
     font-size: 30px;
   }
@@ -95,7 +105,7 @@
     font-weight: normal;
   }
   .child-title{
-    
+
     line-height: 0px;
   }
   .pool-pluses-elm{
@@ -109,11 +119,18 @@
   .pool-pluses-text{
     font-size: 14px;
   }
+  .pool-pluses__button{
+    width: 224px;
+    height: 64px;
+    etter-spacing: 0.22em;
+    font-size: 14px;
+  }
   .pool-pluses-img{
     width: 160px;
     margin-top: -37px
   }
   /*pools-series*/
+
   .pools-series{
     margin-bottom: 90px;
   }
@@ -159,7 +176,9 @@
   }
   .series-description__main-img{
     margin: 0 auto;
-    margin-top: 20px
+    margin-top: -13px;
+    width: 280px;
+    height: 157px;
   }
   .series-feature__list{
     justify-content: space-around;
@@ -192,6 +211,7 @@
   .border-list{
     width: 265px;
     margin: 0 auto;
+
   }
   .border__list{
     grid-template-columns: max-content max-content max-content max-content;
@@ -220,7 +240,7 @@
   }
   /*pools-slider*/
   .pools-slider{
-    margin-bottom: 90px;
+    margin-bottom: 80px;
   }
   .pool-slider{
     grid-template-rows: auto 28px;
@@ -230,6 +250,7 @@
   }
   .pools-slider__title{
     font-size: 30px;
+    margin-bottom: 10px
   }
   .pools-slider__img{
     grid-area: slider-img;
@@ -259,6 +280,7 @@
   }
   .dealers-map__map{
     width: 300px;
+    margin-top: -10px;
   }
   /*company-info*/
   .phone-number__title{
@@ -269,6 +291,7 @@
     font-size: 18px;
     width: 285px;
     margin: 0 auto;
+    margin-bottom: 30px;
   }
   .pnone-number__form{
     width: 253px;
@@ -286,14 +309,20 @@
   }
   .phone-number__description{
     font-size: 10px;
+    width: 165px;
   }
   .pnone-number__button{
     width: 223px;
     height: 57px;
+    font-size: 14px;
   }
   .call-us{
     width: 277px;
     height: 139px;
+    border-radius: 5px;
+    border: 2px solid #63BFFD;
+    padding-top: 9px;
+    margin-top: 40px;
   }
   .call-us__title{
     font-size: 14px;
@@ -310,6 +339,7 @@
   /*footer*/
   .footer{
     flex-direction: column;
+    margin-top: 90px;
   }
   .footer__logo{
     width: 65px;
@@ -319,6 +349,7 @@
   }
   .company-info__title{
     font-size: 18px;
+    margin-bottom: 20px;
   }
   .company-info__text{
     font-size: 14px;
@@ -326,8 +357,8 @@
   .company-info__privacy{
     display: none;
   }
-  .footer__contacts{
-    gap: 30px;
+  .company-info__div{
+    margin-bottom: 15px;
   }
   .email-link{
     width: 64px;

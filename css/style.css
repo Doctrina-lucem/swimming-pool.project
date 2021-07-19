@@ -102,7 +102,11 @@ p, a, span, input{
   margin-bottom: 60px;
 }
 .main__video{
-  margin-top: -20px;
+  margin-top: -40px;
+}
+.video{
+  width: 483px;
+  height: 398px;
 }
 .pluses{
   display: flex;
@@ -482,7 +486,9 @@ p, a, span, input{
 .footer__contacts{
   display: flex;
   flex-direction: column;
-  row-gap: 50px;
+}
+.company-info__div{
+  margin-bottom: 50px;
 }
 .company-info__title{
   font-weight: 500;
