@@ -2,7 +2,7 @@
   /*Global*/
   .page__body{
     width: auto;
-    max-width: 320px;
+    max-width: 300px;
   }
   /*Header*/
   .header__logo{
@@ -19,7 +19,8 @@
 
   /*main__section*/
   .main__section{
-  justify-items: start;
+    justify-items: start;
+    margin-bottom: 90px;
   }
   .title__text{
     width: 278px;
@@ -85,7 +86,37 @@
   .about-company__text p{
     font-size: 18px;
   }
+  /*pool-pluses*/
+  .pool-pluses__title{
+    font-size: 30px;
+  }
+  .child-title-1{
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .child-title{
+    
+    line-height: 0px;
+  }
+  .pool-pluses-elm{
+    width: 260px;
+    height: 151px;
+    margin: 0 auto;
+  }
+  .pool-pluses-title{
+    font-size: 18px;
+  }
+  .pool-pluses-text{
+    font-size: 14px;
+  }
+  .pool-pluses-img{
+    width: 160px;
+    margin-top: -37px
+  }
   /*pools-series*/
+  .pools-series{
+    margin-bottom: 90px;
+  }
   .pools-series__title{
     font-size: 30px;
     width: 306px;
@@ -93,6 +124,9 @@
   }
   .pools-series__control{
     width: 300px;
+    display: block;
+  }
+  .pools-series__wrapper{
     display: block;
   }
   .child-title{
@@ -103,6 +137,7 @@
     padding-bottom: 10px;
     padding-left: 0px;
     width: 300px;
+    grid-template-columns: 300px;
     grid-template-areas: "title"
                          "img"
                          "feature"
@@ -110,12 +145,34 @@
                          "btn";
     height: 980px;
   }
+  .series-description__title-wrapper{
+    margin: 0 auto;
+    width: 268px;
+  }
+  .series-description__title{
+    font-size: 18px;
+    text-align: center;
+  }
+  .series-description__title-text{
+    font-size: 14px;
+    text-align: center;
+  }
+  .series-description__main-img{
+    margin: 0 auto;
+    margin-top: 20px
+  }
+  .series-feature__list{
+    justify-content: space-around;
+  }
   .series-feature{
     margin-top: 0px;
     width: 300px;
   }
   .series-description__button{
     width: 279px;
+    height: 56px;
+    margin: 0 auto;
+    font-size: 14px;
   }
   .color__list{
     width: 290px;
@@ -129,14 +186,161 @@
     margin: 0 auto;
     justify-content: center;
   }
+  .series-feature{
+    margin-bottom: 0px;
+  }
   .border-list{
     width: 265px;
     margin: 0 auto;
   }
   .border__list{
-    column-gap: 20px;
+    grid-template-columns: max-content max-content max-content max-content;
+    column-gap: 30px;
+    grid-template-rows: none;
+    justify-content: space-evenly;
   }
   .series-feature__elm{
     width: 40px;
+  }
+  .series-size__title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .series-size{
+    margin: 0 auto;
+    width: 200px;
+  }
+  .series-size__img{
+    width: 69px;
+    margin-right: 10px;
+  }
+  .series-size__description{
+    font-size: 14px;
+  }
+  /*pools-slider*/
+  .pools-slider{
+    margin-bottom: 90px;
+  }
+  .pool-slider{
+    grid-template-rows: auto 28px;
+    grid-template-columns: none;
+    grid-template-areas: "slider-img"
+                         "left""right";
+  }
+  .pools-slider__title{
+    font-size: 30px;
+  }
+  .pools-slider__img{
+    grid-area: slider-img;
+    width: 301px;
+    order: 1;
+  }
+  .pools-slider__arrow-left{
+    grid-area: left;
+    order: 2;
+    width: 45px;
+    margin-bottom: -33.5px;
+    margin-right: 85px;
+  }
+  .pools-slider__arrow-right{
+    grid-area: right;
+    margin-top: -20px;
+    order: 3;
+    width: 45px;
+    margin-left: 80px;
+  }
+  /*dealers-map*/
+  .dealers-map__first-title{
+    font-size: 30px;
+  }
+  .dealers-map__first-title span{
+    font-size: 20px;
+  }
+  .dealers-map__map{
+    width: 300px;
+  }
+  /*company-info*/
+  .phone-number__title{
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .pnone-number__text{
+    font-size: 18px;
+    width: 285px;
+    margin: 0 auto;
+  }
+  .pnone-number__form{
+    width: 253px;
+    margin: 0 auto;
+    height: 216px;
+    padding-top: 20px;
+  }
+  .pnone-number__input{
+    width: 223px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1.5px solid #00020E;
+    color: #00020E;
+
+  }
+  .phone-number__description{
+    font-size: 10px;
+  }
+  .pnone-number__button{
+    width: 223px;
+    height: 57px;
+  }
+  .call-us{
+    width: 277px;
+    height: 139px;
+  }
+  .call-us__title{
+    font-size: 14px;
+    height: 18px;
+    margin-bottom: 20px;
+  }
+  .call-us__tel{
+    font-size: 24px;
+  }
+  .call-us__description{
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  /*footer*/
+  .footer{
+    flex-direction: column;
+  }
+  .footer__logo{
+    width: 65px;
+  }
+  .footer__company-info{
+    margin-bottom: 20px;
+  }
+  .company-info__title{
+    font-size: 18px;
+  }
+  .company-info__text{
+    font-size: 14px;
+  }
+  .company-info__privacy{
+    display: none;
+  }
+  .footer__contacts{
+    gap: 30px;
+  }
+  .email-link{
+    width: 64px;
+    height: 26px;
+    top: 0px;
+    left: 220px;
+  }
+  .email-link__text{
+    font-size: 10px;
+    margin-top: 2px;
+  }
+  .email-link__img{
+    width: 12.6px;
+    height: 9px;
   }
 }

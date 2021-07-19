@@ -28,7 +28,7 @@ img{}
 ul{
   list-style: none;
 }
-p, a, span{
+p, a, span, input{
   font-family: "TT Norms";
   font-weight: normal;
   text-decoration: none;
@@ -161,7 +161,7 @@ p, a, span{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 230px;
+  margin-bottom: 160px;
 }
 .pool-pluses__title{
   margin: 0 auto;
@@ -181,8 +181,9 @@ p, a, span{
 .pool-pluses-list{
   display: flex;
   gap: 40px;
-  row-gap: 100px;
+  row-gap: 110px;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 .pool-pluses-elm{
   background-color: #F9F9F9;
@@ -211,11 +212,15 @@ p, a, span{
   justify-content: center;
 }
 /*pools-series*/
+.pools-series{
+  margin-bottom: 153px;
+}
 .pools-series__title{
   margin: 0 auto;
   text-align: center;
   font-size: 48px;
-  width: 895px;
+  width: 860px;
+  margin-bottom: 20px;
 }
 .pools-series__control{
   display: none;
@@ -224,12 +229,13 @@ p, a, span{
   font-weight: 500;
 }
 .pools-series__wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
-  row-gap: 40px;
-  margin-bottom: 50px;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 170px 170px 170px 170px 170px;
+  grid-template-rows: 50px 50px;
+  grid-row-gap: 41px;
+  justify-content: space-around;
+  margin-bottom: 40px;
+
 }
 .pools-series__elm{
   font-size: 12px;
@@ -271,31 +277,38 @@ p, a, span{
 .series-description__title{
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .series-description__title-text{
   font-size: 18px;
 }
 .series-description__main-img{
   grid-area: img;
+  margin-top: 20px;
 }
 .series-description__button{
   grid-area: btn;
   width: 337px;
   height: 68px;
+  margin-top: 15px;
 }
 .series-feature{
   grid-area: feature;
+  margin-bottom: 40px;
 }
 .series-feature__list{
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 35px;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content;
+  grid-template-rows: auto auto;
+  column-gap: 22px;
+  row-gap: 20px;
   font-size: 10px;
-  row-gap: 30px;
+
 }
 .series-feature__img{
   display: block;
   margin: 0 auto;
+  margin-bottom: 5px;
 }
 .series-feature__name{
   text-align: center;
@@ -305,6 +318,7 @@ p, a, span{
 }
 .series-feature__elm{
   max-width: 58px;
+  margin-bottom: 15px;
 }
 .series-feature__title,
 .series-size__title{
@@ -338,29 +352,36 @@ p, a, span{
   margin-right: 20px;
 }
 /*pools-slider*/
+.pools-slider{
+  margin-bottom: 140px;
+}
 .pools-slider__title{
   font-size: 48px;
   text-align: center;
+  margin-bottom: 40px;
 }
 .pool-slider{
   display: grid;
   grid-template-columns: 60px 1fr 60px;
   align-items: center;
+  justify-items:center;
 }
 
 .pools-slider__img{
-  width: 100%;
+  width: 960px;
 }
 .pools-slider__arrow-left, .pools-slider__arrow-right{
-  width: 60px;
-  height: 60px;
+
 }
 /*dealers-map*/
+.dealers-map{
+  margin-bottom: 150px;
+}
 .dealers-map__first-title{
-
   font-size: 48px;
   font-weight: 500;
   text-align: center;
+  margin-bottom: 25px;
 }
 .dealers-map__first-title span{
   font-size: 36px
@@ -378,10 +399,12 @@ p, a, span{
 .phone-number__title{
   font-size: 48px;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 .pnone-number__text{
   font-size: 36px;
   width: 565px;
+  margin-bottom: 35px;
 }
 .pnone-number__form{
   width: 654px;
@@ -389,6 +412,7 @@ p, a, span{
   background-color: #FCFCFC;
   padding-top: 33px;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 .pnone-number__input{
   width: 263px;
@@ -397,7 +421,7 @@ p, a, span{
   text-align: center;
   font-size: 18px;
   font-family: "TT Norms";
-  margin-right: 40px;
+  margin-right: 60px;
   margin-left: 30px;
 }
 .pnone-number__button{
@@ -413,9 +437,10 @@ p, a, span{
   border: 5px solid;
   border-image-source: linear-gradient(93.85deg, #6AC1FE 0%, #8CDEFB 44.78%, #6AC1FE 99.97%);
   border-image-slice: 1;
-  margin-top: 190px;
+  margin-top: 188px;
   text-align: center;
   line-height: 50px;
+  box-sizing: border-box;
 }
 .call-us__title{
   font-size: 18px;
@@ -432,11 +457,19 @@ p, a, span{
   font-size: 14px;
   line-height: 150%;
 }
+.phone-number__description{
+  margin-left: 40px;
+  margin-top: 10px;
+}
 /*footer*/
 .footer{
+  margin-top: 160px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 90px;
+}
+.footer__logo{
+  width: 128px;
 }
 .footer__company-info{
   display: flex;
@@ -468,6 +501,16 @@ p, a, span{
   border: 1px solid #FEA670;
   display: flex;
   justify-content: space-around;
+  color: #FEA670;
+}
+.email-link:hover{
+  background-color: #FEA670;
+}
+.email-link:hover .email-link__text{
+  color: #F9F9F9;
+}
+.email-link:hover .email-link__img{
+  background-color: #F9F9F9;
 }
 .email-link__img{
   display: block;
@@ -477,7 +520,6 @@ p, a, span{
 }
 .email-link__text{
   text-decoration: none;
-  color: #FEA670;
   font-size: 18px;
   line-height: 230%;
 }
