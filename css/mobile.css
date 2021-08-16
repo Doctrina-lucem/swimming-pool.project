@@ -18,6 +18,11 @@
   }
 
   /*main__section*/
+  .main-shadow{
+    width: 610px;
+    height: 700px;
+    left: -150px;
+  }
   .main__section{
     justify-items: start;
     margin-bottom: 90px;
@@ -94,6 +99,9 @@
     font-size: 18px;
   }
   /*pool-pluses*/
+  .pool-pluses-shadow{
+    width: 610px;
+  }
   .pool-pluses{
     margin-bottom: 100px;
   }
@@ -283,6 +291,10 @@
     margin-top: -10px;
   }
   /*company-info*/
+  .company-info-shadow{
+    display: none
+  ;
+  }
   .phone-number__title{
     font-size: 30px;
     margin: 0 auto;

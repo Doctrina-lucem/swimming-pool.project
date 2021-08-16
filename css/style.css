@@ -40,6 +40,19 @@ p, a, span, input{
   display: none;
 }
 /*Header*/
+header{
+  position: relative;
+}
+.main-shadow{
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  position: absolute;
+  top: -200px;
+  height: 900px;
+  width: 3000px;
+  right: -910px;
+  z-index: -1;
+}
 .header__burger{
   width: 40px;
   height: 40px;
@@ -71,12 +84,15 @@ p, a, span, input{
   border-bottom: 1px dashed #F9F9F9;
   margin-left: 47px;
 }
+.header__contacts{
+  position: relative;
+}
 .header__contacts a::before{
   content: "";
   position: absolute;
   background-image: url('../img/phone.svg');
-  top: 5px;
-  left: -25px;
+  top: 34px;
+  left: 25px;
   width: 12px;
   height: 12px;
 }
@@ -160,12 +176,21 @@ p, a, span, input{
   -webkit-text-fill-color: transparent;
 }
 /*pool-pluses*/
+.pool-pluses-shadow{
+  position: absolute;
+  z-index: -1;
+  border-radius: 50px;
+  height: 1500px;
+  width: 2600px;
+  top: -400px;
+}
 .pool-pluses{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 160px;
+  position: relative;
 }
 .pool-pluses__title{
   margin: 0 auto;
@@ -183,10 +208,11 @@ p, a, span, input{
   font-size: 36px;
 }
 .pool-pluses-list{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content max-content;
   gap: 40px;
   row-gap: 110px;
-  flex-wrap: wrap;
   margin-bottom: 60px;
 }
 .pool-pluses-elm{
@@ -216,8 +242,32 @@ p, a, span, input{
   justify-content: center;
 }
 /*pools-series*/
+.pool-series-shadow-left, .pool-series-shadow-center, .pool-series-shadow-right{
+  position: absolute;
+  z-index: -1;
+
+}
+.pool-pluses-shadow-left{
+  top: -300px;
+  left: -1000px;
+  height: 900px;
+  width: 1500px;
+  transform: rotate(219deg);
+}
+.pool-pluses-shadow-center{
+  top: -700px;
+  left: 150px;
+}
+.pool-pluses-shadow-right{
+  height: 900px;
+  width: 1500px;
+  left: 600px;
+  top: -300px;
+  transform: rotate(136deg);
+}
 .pools-series{
   margin-bottom: 153px;
+  position: relative;
 }
 .pools-series__title{
   margin: 0 auto;
@@ -343,8 +393,9 @@ p, a, span, input{
   margin-top: -50px;
 }
 .series-size__wrapper{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: 1fr 1fr;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -395,7 +446,16 @@ p, a, span, input{
   display: block;
 }
 /*company-info*/
+.company-info-shadow{
+  position: absolute;
+  z-index: -1;
+  top: -300px;
+  left: -700px;
+  height: 920px;
+  width: 2900px;
+}
 .company-info{
+  position: relative;
   display: flex;
   column-gap: 97px;
   margin-bottom: 50px;

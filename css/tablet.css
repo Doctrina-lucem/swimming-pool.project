@@ -8,6 +8,9 @@
     display: none;
   }
   /*Header*/
+  .header__wrapper{
+    margin-bottom: 0px;
+  }
   .header__nav{
     display: none;
   }
@@ -17,7 +20,15 @@
   .header__burger{
     display: block;
   }
+  .header__logo{
+    width: 106px;
+  }
   /*main__section*/
+  .main-shadow{
+    width: 900px;
+    top: -200px;
+    left: -140px;
+  }
   .main__section{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: none;
@@ -27,6 +38,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -60px;
+  }
+  .main__video{
+    margin-top: 10px;
   }
   .title{
     text-align: center;
@@ -43,7 +58,6 @@
     justify-content: center;
   }
   .pluses__elm--center{
-    margin: 0 auto;
     width: 220px;
   }
   /*about-company*/
@@ -51,19 +65,35 @@
     flex-wrap: wrap;
   }
   /*pool-pluses*/
+  .pool-pluses-shadow{
+    height: 2900px;
+    width: 900px;
+  }
   .pool-pluses__title{
     width: 430px;
     text-align: center;
+    font-size: 43px;
   }
   .child-title-2{
     font-weight: normal;
     font-size: 36px;
   }
   .pool-pluses-list{
-    justify-content: center;
+    grid-template-columns: none;
+    grid-template-rows: repeat(6, max-content);
     margin-bottom: 30px;
   }
+  .pool-pluses-title{
+    margin: 5px auto;
+  }
+  .pool-pluses-text{
+    width: 279px;
+    margin: 0 auto;
+  }
   /*pools-series*/
+  .pool-series-shadow-left, .pool-series-shadow-center, .pool-series-shadow-right{
+    display: none;
+  }
   .pools-series__title{
     font-size: 42px;
     width: 620px;
@@ -132,21 +162,59 @@
   .series-description__main-img{
     width: 263px;
   }
+  .series-feature__list{
+    grid-template-columns: max-content max-content max-content max-content;
+    grid-template-rows: auto auto auto;
+    row-gap: 15px;
+  }
+  .series-feature__elm{
+    margin-bottom: 0px;
+  }
+  .series-description__button{
+    margin: 0 auto;
+    margin-top: -35px;
+  }
   .series-size{
     margin-top: 10px;
+
   }
   .series-size__wrapper{
+    grid-template-columns: none;
+    grid-template-rows: repeat(4, max-content);
+    row-gap: 23px;
     flex-direction: column;
   }
   /*pools-slider*/
+  .pool-slider{
+    grid-template-columns: 0px 1fr 0px;
+  }
   .pools-slider__title{
     font-size: 43px;
+  }
+  .pools-slider__img{
+    width: 570px;
+    z-index: -1;
+  }
+  .pools-slider__arrow-left, .pools-slider__arrow-right{
+    width: 55px;
+  }
+  .pools-slider__arrow-left{
+    margin-right: -45px;
+  }
+  .pools-slider__arrow-right{
+    margin-left: -45px;
   }
   /*dealers-map*/
   .dealers-map__map{
     width: 620px;
   }
   /*company-info*/
+  .company-info-shadow{
+    top: -300px;
+    left: -120px;
+    height: 1200px;
+    width: 900px;
+  }
   .company-info{
     flex-direction: column;
   }
