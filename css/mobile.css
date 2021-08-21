@@ -190,6 +190,8 @@
   }
   .series-feature__list{
     justify-content: space-around;
+    grid-template-rows: auto auto;
+    grid-template-columns: max-content max-content max-content max-content max-content max-content;
   }
   .series-feature{
     margin-top: 0px;
