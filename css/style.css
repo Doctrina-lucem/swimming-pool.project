@@ -234,10 +234,16 @@ header{
 .pool-pluses-title{
   font-weight: 500;
   font-size: 24px;
+  margin: 5px auto;
 }
 .pool-pluses-text{
   font-size: 18px;
   font-weight: 300;
+  margin: 0 auto;
+  width: 279px;
+}
+.pool-pluses-text--big{
+  width: 298px;
 }
 .pool-pluses__button{
   justify-content: center;
@@ -291,7 +297,9 @@ header{
   margin-bottom: 40px;
 
 }
+
 .pools-series__elm{
+  position: relative;
   font-size: 12px;
   font-weight: bold;
   line-height: 22px;
@@ -304,6 +312,14 @@ header{
   width: 170px;
   padding-top: 10px;
   box-sizing: border-box;
+}
+.pools-series__elm--shadow{
+    position: absolute;
+    z-index: -1;
+    left: -40px;
+    top: -20px;
+    width: 250px;
+    height: 120px;
 }
 .pools-series__text{
   cursor: pointer;
@@ -445,6 +461,9 @@ header{
 .dealers-map__map{
   margin: 0 auto;
   display: block;
+  width: 960px;
+}
+.iframe-dealers-map{
   width: 960px;
 }
 /*company-info*/

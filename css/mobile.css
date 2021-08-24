@@ -282,15 +282,21 @@
     margin-left: 80px;
   }
   /*dealers-map*/
+  .dealers-map{
+    margin-bottom: 50px;
+  }
   .dealers-map__first-title{
     font-size: 30px;
   }
   .dealers-map__first-title span{
     font-size: 20px;
   }
+  .dealers-map__map iframe{
+    width: 301px;
+    height: 178px;
+  }
   .dealers-map__map{
-    width: 300px;
-    margin-top: -10px;
+    margin-top: -20px;
   }
   /*company-info*/
   .company-info-shadow{
