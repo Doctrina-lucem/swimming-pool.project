@@ -79,7 +79,7 @@
   }
   /*about-company*/
   .about-company{
-
+  margin-bottom: 90px;
   }
   .about-company__title{
     width: 266px;
@@ -126,6 +126,10 @@
   }
   .pool-pluses-text{
     font-size: 14px;
+    width: 233px;
+  }
+  .pool-pluses-list{
+    row-gap: 90px;
   }
   .pool-pluses__button{
     width: 224px;
@@ -152,10 +156,28 @@
     display: block;
   }
   .pools-series__wrapper{
-    display: block;
+    display: grid;
+    grid-template-columns: 129px 129px;
+    grid-template-rows: 38px;
+  }
+  .pools-series__text{
+    font-size: 10px;
+  }
+  .pools-series__elm{
+    width: 129px;
+    height: 40px;
+    padding-top: 5px;
+  }
+  .pools-series__elm--shadow{
+    width: 200px;
+    height: 100px;
+    left: -30px;
   }
   .child-title{
     font-size: 20px;
+  }
+  .mobile-hide{
+    display: none;
   }
   .series-description{
     padding-top: 10px;
@@ -293,7 +315,7 @@
   }
   .dealers-map__map iframe{
     width: 301px;
-    height: 178px;
+    height: 250px;
   }
   .dealers-map__map{
     margin-top: -20px;
