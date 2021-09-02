@@ -103,8 +103,6 @@
   }
   .pools-series__wrapper{
     column-gap: 40px;
-    grid-template-columns: 170px 170px 170px;
-    grid-template-rows: 50px;
   }
   .pools-series__control{
     width: 620px;

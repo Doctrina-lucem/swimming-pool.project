@@ -24,6 +24,7 @@ img{}
   margin: 0 auto;
   background-color: #00020E;
   color: #F9F9F9;
+  overflow-x: hidden;
 }
 ul{
   list-style: none;
