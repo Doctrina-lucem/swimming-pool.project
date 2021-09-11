@@ -33,6 +33,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: none;
     justify-items: center;
+    margin-bottom: 50px;
   }
   .title__div{
     display: flex;
@@ -56,15 +57,26 @@
     flex-wrap: wrap;
     row-gap: 30px;
     justify-content: center;
+    width: 600px;
+    margin-left: -170px;
   }
   .pluses__elm--center{
     width: 220px;
   }
+  .pluses__text{
+    width: 170px;
+  }
   /*about-company*/
+  .about-company{
+    margin-bottom: 100px;
+  }
   .about-company__list{
     flex-wrap: wrap;
   }
   /*pool-pluses*/
+  .pool-pluses{
+    margin-bottom: 100px;
+  }
   .pool-pluses-shadow{
     height: 2900px;
     width: 900px;
@@ -91,6 +103,9 @@
     margin: 0 auto;
   }
   /*pools-series*/
+  .pools-series{
+    margin-bottom: 100px;
+  }
   .pool-series-shadow-left, .pool-series-shadow-center, .pool-series-shadow-right{
     display: none;
   }
@@ -103,6 +118,9 @@
   }
   .pools-series__wrapper{
     column-gap: 40px;
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 50px;
   }
   .pools-series__control{
     width: 620px;
@@ -147,6 +165,7 @@
     width: 620px;
     height: 634px;
     padding-left: 15px;
+    padding-top: 25px;
     grid-template-columns: 320px 262px;
     grid-template-areas: "title img"
                          "feature size"
@@ -185,6 +204,9 @@
     flex-direction: column;
   }
   /*pools-slider*/
+  .pools-slider{
+    margin-bottom:100px
+  }
   .pool-slider{
     grid-template-columns: 0px 1fr 0px;
   }
@@ -193,6 +215,7 @@
   }
   .pools-slider__img{
     width: 570px;
+    height: 366px;
     z-index: -1;
   }
   .pools-slider__arrow-left, .pools-slider__arrow-right{
@@ -205,6 +228,9 @@
     margin-left: -45px;
   }
   /*dealers-map*/
+  .dealers-map{
+    margin-bottom: 90px;
+  }
   .dealers-map__map iframe{
     width: 620px;
     height: 366px;
@@ -258,6 +284,7 @@
   /*footer*/
   .footer{
     position: relative;
+    margin-top: 100px;
   }
   .email-link{
     position: absolute;

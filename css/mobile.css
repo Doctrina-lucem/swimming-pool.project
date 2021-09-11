@@ -291,6 +291,7 @@
   }
   .pools-slider__img{
     grid-area: slider-img;
+    height: 178px;
     width: 301px;
     order: 1;
   }
