@@ -33,7 +33,7 @@ left.addEventListener("click", function () {
     current -= 1
 })
 right.addEventListener("click", function () {
-    if (current == 20){
+    if (current == imgList.length-1){
         current = -1
     }
     img.src = imgList[current+1]

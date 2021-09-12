@@ -55,8 +55,8 @@
     margin-bottom: 40px;
   }
   .video{
-    width: 229px;
-    height: 188px;
+    width: 300px;
+    height: 200px;
   }
   .pluses{
     margin-right: 0px;
@@ -321,7 +321,7 @@
   }
   .dealers-map__map iframe{
     width: 301px;
-    height: 250px;
+    height: 300px;
   }
   .dealers-map__map{
     margin-top: -20px;
