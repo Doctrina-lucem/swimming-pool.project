@@ -3,6 +3,7 @@
   .page__body{
     width: auto;
     max-width: 300px;
+    overflow: hidden;
   }
   /*Header*/
   .header__logo{
