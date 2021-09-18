@@ -185,10 +185,11 @@ header{
   height: 1500px;
   width: 2600px;
   top: -400px;
+  left: -750px;
 }
 .pool-pluses{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 160px;
@@ -248,6 +249,7 @@ header{
 }
 .pool-pluses__button{
   justify-content: center;
+  margin: 0 auto;
 }
 /*pools-series*/
 .pool-pluses-shadow-left, .pool-pluses-shadow-center, .pool-pluses-shadow-right{
@@ -583,6 +585,7 @@ header{
   line-height: 150%;
   font-weight: 500;
   font-size: 20px;
+  color: #F9F9F9;
 }
 .email-link{
   width: 102px;

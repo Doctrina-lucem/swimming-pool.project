@@ -1,8 +1,10 @@
 @media screen and (max-width: 900px) {
   /*Global*/
+  html{
+    overflow-x: hidden;
+  }
   .page__body{
     width: auto;
-    max-width: 620px
   }
   .hide{
     display: none;
@@ -91,9 +93,10 @@
     font-size: 36px;
   }
   .pool-pluses-list{
+    margin: 0 auto;
     grid-template-columns: none;
     grid-template-rows: repeat(6, max-content);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .pool-pluses-title{
     margin: 5px auto;
@@ -102,6 +105,7 @@
     width: 279px;
     margin: 0 auto;
   }
+
   /*pools-series*/
   .pools-series{
     margin-bottom: 100px;
