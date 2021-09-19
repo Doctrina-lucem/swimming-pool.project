@@ -257,6 +257,9 @@ input[type=range] {
   .dealers-map{
     margin-bottom: 90px;
   }
+  .dealers-map__map{
+    width: 620px;
+  }
   .dealers-map__map iframe{
     width: 620px;
     height: 366px;

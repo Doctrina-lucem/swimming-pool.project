@@ -140,6 +140,7 @@ header{
   letter-spacing: 0.13em;
   line-height: 21px;
   width: 188px;
+  font-size: 18px;
 }
 .pluses__text span{
   font-weight: 500;
@@ -374,8 +375,8 @@ header{
   display: grid;
   grid-template-columns: max-content max-content max-content max-content max-content max-content;
   grid-template-rows: auto auto;
-  column-gap: 22px;
-  row-gap: 20px;
+  column-gap: 15px;
+  row-gap: 5px;
   font-size: 10px;
 
 }
