@@ -12,6 +12,7 @@
   /*Header*/
   .header__wrapper{
     margin-bottom: 0px;
+    padding: 0 30px;
   }
   .header__nav{
     display: none;
@@ -27,9 +28,9 @@
   }
   /*main__section*/
   .main-shadow{
-    width: 900px;
+    width: 1100px;
     top: -200px;
-    left: -140px;
+    left: -130px;
   }
   .main__section{
     grid-template-rows: 1fr 1fr;
@@ -74,6 +75,8 @@
   }
   .about-company__list{
     flex-wrap: wrap;
+    width: 750px;
+    margin: 0 auto;
   }
   /*pool-pluses*/
   .pool-pluses{
@@ -81,7 +84,8 @@
   }
   .pool-pluses-shadow{
     height: 2900px;
-    width: 900px;
+    width: 1000px;
+    left: -30px;
   }
   .pool-pluses__title{
     width: 430px;
@@ -231,10 +235,13 @@ input[type=range] {
   }
   /*pools-slider*/
   .pools-slider{
+    margin: 0 auto;
+    width: 620px;
     margin-bottom:100px
   }
   .pool-slider{
     grid-template-columns: 0px 1fr 0px;
+    width: 620px;
   }
   .pools-slider__title{
     font-size: 43px;
@@ -267,9 +274,9 @@ input[type=range] {
   /*company-info*/
   .company-info-shadow{
     top: -300px;
-    left: -120px;
+    left: -25px;
     height: 1200px;
-    width: 900px;
+    width: 1000px;
   }
   .company-info{
     flex-direction: column;
@@ -281,6 +288,8 @@ input[type=range] {
   .pnone-number__text{
     text-align: center;
     font-size: 36px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
   .pnone-number__form{
     margin: 0 auto;
@@ -313,7 +322,9 @@ input[type=range] {
   /*footer*/
   .footer{
     position: relative;
+    margin: 0 auto;
     margin-top: 100px;
+    width: 700px;
   }
   .email-link{
     position: absolute;

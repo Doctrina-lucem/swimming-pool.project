@@ -2,6 +2,9 @@ let control = document.querySelector(".pools-series__control")
 let list = document.querySelector(".pools-series__wrapper").children
 z = control.value
 control.oninput = function (){
+    if(~['Android', 'iPhone', 'iPod', 'iPad', 'BlackBerry'].indexOf(navigator.platform)) {
+
+    }
     console.log(control.value)
     if (control.value < z){
         list[control.value -3].classList.remove("hide")
