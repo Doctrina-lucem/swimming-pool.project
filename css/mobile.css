@@ -92,6 +92,7 @@
   }
   .about-company__list{
     row-gap: 30px;
+    width: 325px;
   }
   .about-company__text span{
     font-size: 64px;
@@ -283,12 +284,14 @@
   /*pools-slider*/
   .pools-slider{
     margin-bottom: 80px;
+    width: 320px;
   }
   .pool-slider{
     grid-template-rows: auto 28px;
     grid-template-columns: none;
     grid-template-areas: "slider-img"
                          "left""right";
+    width: 320px;
   }
   .pools-slider__title{
     font-size: 30px;
@@ -394,6 +397,8 @@
   .footer{
     flex-direction: column;
     margin-top: 90px;
+    width: 300px;
+    margin-bottom: 20px;
   }
   .footer__logo{
     width: 65px;
@@ -419,7 +424,7 @@
     height: 26px;
     top: 0px;
     left: auto;
-    right: 10px;
+    right: 0px;
   }
   .email-link__text{
     font-size: 10px;

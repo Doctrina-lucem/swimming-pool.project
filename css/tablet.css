@@ -114,7 +114,7 @@
   .pools-series{
     margin-bottom: 100px;
   }
-  .pool-series-shadow-left, .pool-series-shadow-center, .pool-series-shadow-right{
+  .pool-pluses-shadow-left, .pool-pluses-shadow-center, .pool-pluses-shadow-right{
     display: none;
   }
   .pools-series__title{
@@ -131,9 +131,9 @@
     grid-template-rows: 50px;
   }
   .pools-series__control{
-    width: 620px;
+    width: 90%;
     height: 4px;
-    margin: 30px 0;
+    margin: 30px auto;
     overflow: hidden;
     -webkit-appearance: none;
     background-color: #142F4E;
@@ -141,7 +141,6 @@
   }
 input[type=range] {
   -webkit-appearance: none;
-  width: 100%;
   background-color: #ccc;
 }
 
@@ -325,6 +324,7 @@ input[type=range] {
     margin: 0 auto;
     margin-top: 100px;
     width: 700px;
+    margin-bottom: 30px;
   }
   .email-link{
     position: absolute;
