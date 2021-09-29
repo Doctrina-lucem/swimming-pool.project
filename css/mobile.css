@@ -27,7 +27,7 @@
   }
   .main__section{
     justify-items: start;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
   }
   .title__text{
     width: 278px;
@@ -53,8 +53,8 @@
   }
   .main__video{
     margin: 0 auto;
-    margin-top: 55px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
   .video{
     width: 300px;
@@ -81,7 +81,7 @@
   }
   /*about-company*/
   .about-company{
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   }
   .about-company__title{
     width: 266px;
@@ -108,11 +108,12 @@
     left: -100px;
   }
   .pool-pluses{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .pool-pluses__title{
     font-size: 30px;
     width: 315px;
+    margin-bottom: 50px;
   }
   .child-title-1{
     font-size: 30px;
