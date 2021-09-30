@@ -156,7 +156,7 @@
     left: -300px;
   }
   .pools-series{
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
   .pools-series__title{
     font-size: 30px;
@@ -397,7 +397,7 @@
   /*footer*/
   .footer{
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 50px;
     width: 300px;
     margin-bottom: 20px;
   }
