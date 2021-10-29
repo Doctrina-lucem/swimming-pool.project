@@ -301,11 +301,16 @@
     font-size: 30px;
     margin-bottom: 10px
   }
-  .pools-slider__img{
+  .pools-slider__img-container{
     grid-area: slider-img;
     height: 178px;
     width: 301px;
     order: 1;
+  }
+  .pools-slider__img{
+    height: 178px;
+    width: 301px;
+
   }
   .pools-slider__arrow-left{
     grid-area: left;
