@@ -16,7 +16,7 @@
   }
   .header__wrapper{
     margin: 0 auto;
-    margin-top: 40px ;
+    margin-top: 10px ;
     margin-bottom: 14px;
     width: 300px;
     padding: 0px;
@@ -198,8 +198,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
-    width: 300px;
-    grid-template-columns: 300px;
+    width: 340px;
+    grid-template-columns: 340px;
     grid-template-areas: "title"
                          "img"
                          "feature"
@@ -232,7 +232,7 @@
   }
   .series-feature{
     margin-top: 0px;
-    width: 300px;
+    width: 340px;
   }
   .series-description__button{
     width: 279px;
@@ -242,7 +242,7 @@
   }
   .color__list{
     width: 290px;
-    column-gap: 10px;
+    column-gap: 15px;
   }
   .series-feature__title{
     font-size: 16px;
