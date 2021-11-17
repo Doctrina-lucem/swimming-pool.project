@@ -85,6 +85,7 @@ header{
 }
 .header__contacts a{
   font-size: 16px;
+  color: #F9F9F9;
   border-bottom: 1px dashed #F9F9F9;
   margin-left: 47px;
 }
