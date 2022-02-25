@@ -362,8 +362,16 @@ header{
   font-size: 18px;
 }
 .series-description__main-img{
+  position: relative;
   grid-area: img;
   margin-top: 20px;
+}
+.border-img{
+  width: 337px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+
 }
 .series-description__button{
   grid-area: btn;
